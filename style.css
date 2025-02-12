@@ -16,10 +16,13 @@ body {
 span,
 .span-logo {
     font-family: "Raleway", sans-serif;
+    cursor: pointer;
+
 }
 *:not(.logo, .logo-n2, span ,.span-logo){
     font-family: "Roboto", sans-serif;
 }
+
 .nav{
     display: flex;
     margin-top: 20px;
@@ -96,6 +99,7 @@ button {
     background: #2196F3;
     color: #ffffff;
     border-radius: 4px 4px 4px 4px;
+    cursor: pointer;
 }
 
 .information {
