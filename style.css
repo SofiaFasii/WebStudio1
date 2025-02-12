@@ -3,14 +3,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 *{
-    margin: 0 ;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+body {
     background: #c4aaaa;
 }
-.logo, .logo-n2, span ,.span-logo{
+
+.logo,
+.logo-n2,
+span,
+.span-logo {
     font-family: "Raleway", sans-serif;
 }
 *:not(.logo, .logo-n2, span ,.span-logo){
@@ -22,18 +26,20 @@ body{
     margin-right: auto;
     margin-left: 93px;
     list-style-type: none;
-    gap:50px;
-    font-size: 14px; 
+    gap: 50px;
+    font-size: 14px;
 }
 .nav a{
     color:#2F303A;
     text-decoration: none;
 }
-.nav img{
+
+.nav img {
     display: flex;
     margin-left: 26px;
 }
-.header{
+
+.header {
     display: flex;
     align-items: center;
     width: 1600px;
@@ -41,39 +47,45 @@ body{
     margin: 0 auto;
     background: white;
 }
-.contacts{
-display: flex;
-margin-right: 215px;
+
+.contacts {
+    display: flex;
+    margin-right: 215px;
 }
-.logo{
-    color:#2196F3;
+
+.logo {
+    color: #2196F3;
     font-size: 26px;
     margin-left: 215px;
 }
-span{
+
+span {
     font-size: 26px;
 }
-.nav a:hover{
-    color:#2196F3;
+
+.nav a:hover {
+    color: #2196F3;
 }
 
-.intro{
+.intro {
     width: 1600px;
     height: 600px;
     background: #2F303A;
     margin: 0 auto;
 }
-h1{
+
+h1 {
     display: flex;
-    margin:0 auto;
-    color:#ffffff;
+    margin: 0 auto;
+    color: #ffffff;
     font-size: 44px;
     padding: 200px;
     margin-left: 302px;
     margin-right: 302px;
     text-align: center;
 }
-button{
+
+button {
     display: flex;
     margin-top: -170px;
     margin-left: 692px;
@@ -85,65 +97,76 @@ button{
     color: #ffffff;
     border-radius: 4px 4px 4px 4px;
 }
-.information{
-display: flex;
-width: 1600px;
-height: 286px;
-gap: 30px;
-background: rgb(255, 255, 255);
-margin: 0 auto;
+
+.information {
+    display: flex;
+    width: 1600px;
+    height: 286px;
+    gap: 30px;
+    background: rgb(255, 255, 255);
+    margin: 0 auto;
 }
-.container{
+
+.container {
     display: flex;
     flex-direction: column;
     margin-top: 94px;
     width: 270px;
     height: 98px;
     background: rgb(255, 255, 255);
-    gap:10px;
+    gap: 10px;
 }
-.category{
+
+.category {
     display: flex;
     font-size: 14px;
     color: #2F303A;
 }
-.container:first-child{
+
+.container:first-child {
     display: flex;
     margin-left: 215px;
 }
-.container:last-child{
+
+.container:last-child {
     margin-right: 215px;
 }
-.photographs{
+
+.photographs {
     width: 1600px;
     height: 480px;
     background: #ffffff;
     margin: 0 auto;
 }
-h2{
+
+h2 {
     display: flex;
     justify-content: center;
     font-size: 36px;
     color: #212121;
 }
-.photo{
+
+.photo {
     display: flex;
     justify-content: center;
     margin-top: 50px;
-    gap:30px;
+    gap: 30px;
 }
-.Our-team{
+
+.Our-team {
     width: 1600px;
     height: 648px;
-    background:#F5F4FA;
+    background: #F5F4FA;
     margin: 0 auto;
 }
-.photo-container{
+
+.photo-container {
     display: flex;
     margin-left: 215px;
     gap: 30px;
 }
-h4{
+
+h4 {
     display: flex;
     justify-content: center;
     padding-top: 94px;
@@ -151,13 +174,15 @@ h4{
     color: #212121;
     margin: 0 auto;
 }
-.photo-box{
+
+.photo-box {
     margin-top: 50px;
     width: 270px;
-    height:368px;
+    height: 368px;
     background: #ffffff;
 }
-h5{
+
+h5 {
     display: flex;
     justify-content: center;
     font-style: 16px;
@@ -165,61 +190,71 @@ h5{
     margin: 0;
     margin-top: 30px;
 }
-p{
+
+p {
     display: flex;
     justify-content: center;
-    color:#757575;
+    color: #757575;
     margin-top: 10px;
 }
-.team-photo{
+
+.team-photo {
     display: flex;
     width: 270px;
     height: 260px;
 }
-.team{
+
+.team {
     display: flex;
 }
-footer{
+
+footer {
     width: 1600px;
     height: 252px;
-    background:#2F303A;
+    background: #2F303A;
     margin: 0 auto;
 }
-.logo-n2{
+
+.logo-n2 {
     display: flex;
     margin-left: 215px;
     margin-top: 60px;
-    color:#2196F3;
+    color: #2196F3;
     font-size: 26px;
 }
-.span-logo{
-    color:white;
+
+.span-logo {
+    color: white;
     font-size: 26px;
 }
-.footer-container{
+
+.footer-container {
     font-family: "Roboto", sans-serif;
     display: flex;
     flex-direction: column;
 }
-address{
+
+address {
     display: flex;
     margin-top: 20px;
     font-size: 16px;
     flex-direction: column;
     margin-left: 215px;
-    }
-    address p{
-        color:white;
-        font-size: 16px;
-        margin-right: auto;
-        margin-bottom: 9px;
-    }
-    address a{
-    color:#999999 ;
-    text-decoration:none;
+}
+
+address p {
+    color: white;
+    font-size: 16px;
+    margin-right: auto;
     margin-bottom: 9px;
-    }
-    address a:hover{
-        color:#2196F3;
-    }
-    
+}
+
+address a {
+    color: #999999;
+    text-decoration: none;
+    margin-bottom: 9px;
+}
+
+address a:hover {
+    color: #2196F3;
+}
